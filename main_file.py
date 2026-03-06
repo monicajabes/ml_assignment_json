@@ -1,3 +1,4 @@
+import json
 with open("inventory.json", "r") as file:
     inventory = json.load(file)
 
